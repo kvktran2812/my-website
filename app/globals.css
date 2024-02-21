@@ -31,3 +31,11 @@ body {
     text-wrap: balance;
   }
 }
+
+.header-1 {
+  text-align: center;
+  font-size: x-large;
+  margin-top: 3.5rem;
+  margin-bottom: 1rem;
+  /* text-center text-2xl my-10 */
+}
