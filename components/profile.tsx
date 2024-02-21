@@ -11,7 +11,7 @@ const Profile = () => {
         </div>
         
         <p>
-            Hello, I'm Khuong Tran. I'm a 4th year student studying computer science at Ontario Tech University. My expertise is software engineering and machine learning.
+            Hello, I&aposm Khuong Tran. I&aposm a 4th year student studying computer science at Ontario Tech University. My expertise is software engineering and machine learning.
         </p>
     </div>
   )
