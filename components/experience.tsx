@@ -16,7 +16,7 @@ const ExperiencePage = () => {
               <ul>
                 {
                   e.details.map(detail => (
-                    <li key={0} className='list-disc ml-10'>{detail}</li>
+                    <li key={e.details.indexOf(detail)} className='list-disc ml-10'>{detail}</li>
                   ))
                 }
               </ul>

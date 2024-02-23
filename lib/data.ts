@@ -2,7 +2,7 @@ import { LinkData, Education, Experience, Project } from "./definition";
 
 export const links : Array<LinkData> = [
     {id: 0, name: "Home", href: "#home"},
-    {id: 1, name: "About", href: "#about"},
+    // {id: 1, name: "About", href: "#about"},
     {id: 6, name: "Education", href: "#education"},
     {id: 2, name: "Experience", href: "#experience"},
     {id: 3, name: "Projects", href: "#projects"},

@@ -7,10 +7,10 @@ import SkillPage from "@/components/skill";
 
 export default function Home() {
   return (
-    <main className="w-[70%] py-24 m-auto">
+    <main className="w-[70%] pb-24 m-auto">
     {/* <div> */}
       <Profile />
-      <About />
+      {/* <About /> */}
       <ExperiencePage />
       <ProjectPage />
       <SkillPage />
