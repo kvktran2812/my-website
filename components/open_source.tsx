@@ -25,7 +25,7 @@ const OpenSource = () => {
                 </Col>
                 <Col style={{paddingTop: "20px"}}>
                     <p>{object.description}</p>
-                    <p style={{marginTop: "10px"}}>I'm one of the contributors of this Python library</p>
+                    <p style={{marginTop: "10px"}}>I&apos;m one of the contributors of this Python library</p>
                 </Col>
             </Row>
         </Container>
