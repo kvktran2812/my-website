@@ -23,7 +23,17 @@ export type Experience = {
 export type Project = {
     id: number,
     status: string,
+    title: string,
     description: string,
     href: string,
     github: string,
+}
+
+export type OpenSource = {
+    id: number,
+    title: string,
+    description: string,
+    image: string,
+    github: string,
+    documentation: string,
 }

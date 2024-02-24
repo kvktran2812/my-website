@@ -1,4 +1,4 @@
-import { LinkData, Education, Experience, Project } from "./definition";
+import { LinkData, Education, Experience, Project, OpenSource } from "./definition";
 
 export const links : Array<LinkData> = [
     {id: 0, name: "Home", href: "#home"},
@@ -70,6 +70,7 @@ export const projects: Array<Project> = [
     {
         id: 0,
         status: "ongoing",
+        title: "Machine Learning / Deep Learning",
         description: "Some description 1",
         href: "Some link here",
         github: "A github link here",
@@ -79,4 +80,15 @@ export const projects: Array<Project> = [
 export const skills: Array<string> = [
     "Python", "C++", "JavaScript", "NumPy", "Pandas", "Matplotlib", "Tensorflow", "HTML", "CSS", "Web Scraping",
     "Git", "GitHub", "SQL", "NoSQL", "ReactJS/NextJS", "Node.js", "Flask", "FastAPI"
+]
+
+export const open_source_data: Array<OpenSource> = [
+    {
+        id: 0,
+        title: "GraphiQ",
+        description: "GraphiQ is an open-source framework for designing photonic graph state generation schemes. Photonic graph states are an important resource for many quantum information processing tasks including quantum computing and quantum communication.",
+        image: "/img/graphiq.png",
+        github: "https://github.com/graphiq-dev/graphiq",
+        documentation: "https://graphiq.readthedocs.io/en/latest/",
+    }
 ]

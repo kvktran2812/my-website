@@ -5,6 +5,7 @@ import ExperiencePage from "@/components/experience";
 import ProjectPage from "@/components/project";
 import SkillPage from "@/components/skill";
 import EducationPage from "@/components/education";
+import OpenSource from "@/components/open_source";
 
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <Profile />
       <EducationPage  />
       <ExperiencePage />
+      <OpenSource />
       <ProjectPage />
       <SkillPage />
     </main>
