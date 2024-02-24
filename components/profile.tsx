@@ -11,14 +11,13 @@ const Profile = () => {
         </div>
         
         <p className='mt-10'>
-            Hi, I`&apos;`m Khuong Tran. I`&apos;`m a software engineer, who can work with multiple technologies to implement high quality products. 
-            I`&apos;`m most comfortable working with Python, C++, and JavaScript project, however, I`&apos;`m also very flexible to work with other programming language as well. 
-            I`&apos;`m also very familiar with data science technologies like NumPy, Pandas, SciPy, Matplotlib, and especially machine learning tools like Scikit-learn, Tensorflow, and Pytorch.
+            Hi, I&apos;m Khuong Tran. I&apos;m a software engineer, who can work with multiple technologies to implement high quality products. 
+            I&apos;m most comfortable working with Python, C++, and JavaScript project, however, I&apos;m also flexible to work with other programming language as well. 
+            I often practice with data science technologies like NumPy, Pandas, SciPy, Matplotlib, and especially machine learning tools like Scikit-learn, Tensorflow, and Pytorch.
         </p>
         <p className='mt-5'>
-          I`&apos;`m very comfortable to work with any type of projects including but not limited to frontend, backend, data science, data engineering. 
-          I`&apos;`m also has some experience with system programming with multi-threading and scheduling processes. 
-          I also practice programming to GPU with technologies like OpenGL and GLSL.
+          I&apos;m comfortable to work with any type of projects including but not limited to frontend, backend, data science, data engineering. 
+          During my school years, I gained some experience with system programming with multi-threading and scheduling processes and practiced programming to GPU with technologies like OpenGL and GLSL.
         </p>
     </div>
   )

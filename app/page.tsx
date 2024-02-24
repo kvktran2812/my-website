@@ -4,13 +4,14 @@ import About from "@/components/about";
 import ExperiencePage from "@/components/experience";
 import ProjectPage from "@/components/project";
 import SkillPage from "@/components/skill";
+import EducationPage from "@/components/education";
+
 
 export default function Home() {
   return (
     <main className="w-[70%] pb-24 m-auto">
-    {/* <div> */}
       <Profile />
-      {/* <About /> */}
+      <EducationPage  />
       <ExperiencePage />
       <ProjectPage />
       <SkillPage />
