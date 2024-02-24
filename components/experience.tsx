@@ -7,30 +7,21 @@ const ExperiencePage = () => {
     <div id="experience" className='pt-10'>
       <h1 className='header-1'>Experience</h1>
       <Accordion defaultActiveKey="0">
-        <AccordionItem eventKey="0">
-          <AccordionHeader>Accordion Item #1</AccordionHeader>
-          <AccordionBody>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-            minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </AccordionBody>
-        </AccordionItem>
-        <AccordionItem eventKey="1">
-          <AccordionHeader>Accordion Item #2</AccordionHeader>
-          <AccordionBody>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-            minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </AccordionBody>
-        </AccordionItem>
+        {experience.map(exp => (
+          <AccordionItem key={exp.id} eventKey={exp.id.toString()}>
+            <AccordionHeader>{exp.title}</AccordionHeader>
+            <AccordionBody>
+              <h1 className='mb-2'>{exp.company} - Time: {exp.time}</h1>
+              {
+                <ul>
+                {exp.details.map(detail => (
+                  <li key={exp.details.indexOf(detail)} className='mb-2'>- {detail}</li>
+                ))}
+                </ul>
+              }
+            </AccordionBody>
+          </AccordionItem>
+        ))}
       </Accordion>
     </div>
   )

@@ -23,7 +23,7 @@ export function Header() {
           </nav> */}
           <Nav className="justify-content-center">
               {links.map(link => (
-                  <NavItem>
+                  <NavItem key={link.id}>
                     <Link href={link.href} className="flex w-full items-center justify-center px-3 py-3 hover:text-gray-950 transition dark:text-gray-500 dark:hover:text-gray-300">{link.name}</Link>
                   </NavItem>
               ))}
