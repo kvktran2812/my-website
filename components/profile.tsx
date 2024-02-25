@@ -9,8 +9,8 @@ const Profile = () => {
         <div className="flex items-center justify-center m-5">
             <img src="/img/Digital_photo.jpg" alt="Avatar" className="w-[250px] h-[250px] rounded-full object-cover"></img>
         </div>
-        
-        <p className='mt-10'>
+        <h1 style={{fontSize: "30px", color: "blue"}}>Hi, I&apos;m Khuong Tran</h1>
+        <p className='mt-2'>
             I&apos;m a software engineer, who can work with multiple technologies to implement high quality products. 
             I&apos;m most comfortable working with Python, C++, and JavaScript project, however, I&apos;m also flexible to work with other programming language as well. 
             I often practice with data science technologies like NumPy, Pandas, SciPy, Matplotlib, and especially machine learning tools like Scikit-learn, Tensorflow, and Pytorch.

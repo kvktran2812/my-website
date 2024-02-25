@@ -5,6 +5,7 @@ export const links : Array<LinkData> = [
     // {id: 1, name: "About", href: "#about"},
     {id: 6, name: "Education", href: "#education"},
     {id: 2, name: "Experience", href: "#experience"},
+    {id: 7, name: "Open Source", href: "#open_source"},
     {id: 3, name: "Projects", href: "#projects"},
     {id: 4, name: "Skills", href: "#skills"},
 ]
@@ -70,10 +71,25 @@ export const projects: Array<Project> = [
     {
         id: 0,
         status: "ongoing",
-        title: "Machine Learning / Deep Learning",
-        description: "Some description 1",
+        title: "Deep Learning",
+        description: "A series of simple tutorials and practices using multiple deep learning technologies. \
+        In this series, I implemented different models like simple neural network, convolutional network, autoencoder, etc. \
+        These models represent best practices that can apply to solve practical problems",
         href: "Some link here",
         github: "A github link here",
+        examples: [
+            {
+                id: 0,
+                text: "0. Simple Neural Network",
+                href: "/html/0_simple_neural_network.html",
+            },
+            {
+                id: 1,
+                text: "1. Convolutional Network",
+                href: "/html/1_conv_nn.html",
+            },
+        ],
+        image: "/img/deeplearn.png",
     },
 ]
 

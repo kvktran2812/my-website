@@ -45,3 +45,8 @@ body {
   font-size: 30px;
   color: lightblue;
 }
+
+.link {
+  color: blue;
+  margin: 10px 0px;
+}

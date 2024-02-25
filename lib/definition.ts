@@ -26,7 +26,15 @@ export type Project = {
     title: string,
     description: string,
     href: string,
+    examples: Array<ProjectLink>,
     github: string,
+    image: string,
+}
+
+export type ProjectLink = {
+    id: number,
+    text: string,
+    href: string,
 }
 
 export type OpenSource = {
