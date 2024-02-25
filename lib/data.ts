@@ -1,4 +1,4 @@
-import { LinkData, Education, Experience, Project, OpenSource } from "./definition";
+import { LinkData, Education, Experience, Project, OpenSource, SkillSet } from "./definition";
 
 export const links : Array<LinkData> = [
     {id: 0, name: "Home", href: "#home"},
@@ -80,25 +80,33 @@ export const projects: Array<Project> = [
                 id: 0,
                 text: "0. Simple Neural Network",
                 href: "/html/0_simple_neural_network.html",
-                image: "/img/deeplearn.png"
+                image: "/img/deeplearn.png",
+                description: "Using simple neural network to study and predict the famous MNIST dataset. \
+                The dataset is a collection of images of handwritten numbers from 0 to 9\
+                The result is a model that can achieve accuracy rate of 97%",
             },
             {
                 id: 1,
                 text: "1. Convolutional Network",
                 href: "/html/1_conv_nn.html",
-                image: "/img/conv.png"
+                image: "/img/conv.png",
+                description: "In this demonstration, I used convolutional network to study the CIFAR10 dataset. \
+                Using convolutional layer to first filter and extract important information from the image, and then feed those features to a densely connected layer.\
+                The dataset is a collection of images of 10 different classes of object. The result is a model that can achieve accuracy rate of 75%",
             },
             {
                 id: 2,
                 text: "2. LSTM",
-                href: "/html/1_conv_nn.html",
-                image: "/img/lstm.png"
+                href: "",
+                image: "/img/lstm.png",
+                description: "Will be updated soon",
             },
             {
                 id: 3,
                 text: "3. Autoencoder",
-                href: "/html/1_conv_nn.html",
-                image: "/img/autoencoder.png"
+                href: "",
+                image: "/img/autoencoder.png",
+                description: "Will be updated soon",
             },
         ],
     },
@@ -124,5 +132,104 @@ export const open_source_data: Array<OpenSource> = [
         image: "/img/graphiq.png",
         github: "https://github.com/graphiq-dev/graphiq",
         documentation: "https://graphiq.readthedocs.io/en/latest/",
+    }
+]
+
+export const skillsets: Array<SkillSet> = [
+    {
+        id: 0,
+        title: "Programming Language",
+        skills: [
+            {
+                id: 0,
+                name: "Python",
+                description: "",
+                experience: 4,
+                icon: "/img/skills/python.jpg",
+            },
+            {
+                id: 1,
+                name: "C++",
+                description: "",
+                experience: 4,
+                icon: "/img/skills/cpp.png",
+            },
+            {
+                id: 2,
+                name: "JavaScript",
+                description: "",
+                experience: 5,
+                icon: "/img/skills/js.png",
+            }
+        ]
+    },
+    {
+        id: 1,
+        title: "Web Technologies",
+        skills: [
+            {
+                id: 0,
+                name: "HTML",
+                description: "",
+                experience: 4,
+                icon: "/img/skills/html.png",
+            },
+            {
+                id: 1,
+                name: "CSS",
+                description: "",
+                experience: 4,
+                icon: "/img/skills/css.png",
+            },
+            {
+                id: 2,
+                name: "NodeJS",
+                description: "",
+                experience: 5,
+                icon: "/img/skills/nodejs.png",
+            },
+            {
+                id: 3,
+                name: "ReactJS",
+                description: "",
+                experience: 5,
+                icon: "/img/skills/reactjs.png",
+            },
+            {
+                id: 4,
+                name: "FastAPI",
+                description: "",
+                experience: 5,
+                icon: "/img/skills/fastapi.png",
+            },
+            {
+                id: 5,
+                name: "Django",
+                description: "",
+                experience: 5,
+                icon: "/img/skills/django.png",
+            },
+            {
+                id: 6,
+                name: "PostgreSQL",
+                description: "",
+                experience: 5,
+                icon: "/img/skills/postgresql.png",
+            },
+            {
+                id: 6,
+                name: "MySQL",
+                description: "",
+                experience: 5,
+                icon: "/img/skills/mysql.png",
+            },
+            {
+                id: 7,
+                name: "MongoDB",
+                description: "",
+                experience: 5,
+                icon: "/img/skills/mongodb.png",
+            }
+        ]
     }
 ]

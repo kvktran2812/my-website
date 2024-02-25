@@ -33,6 +33,7 @@ export type ProjectLink = {
     text: string,
     href: string,
     image: string,
+    description: string,
 }
 
 export type OpenSource = {
@@ -42,4 +43,18 @@ export type OpenSource = {
     image: string,
     github: string,
     documentation: string,
+}
+
+export type SkillSet = {
+    id: number,
+    title: string,
+    skills: Array<Skill>,
+}
+
+export type Skill = {
+    id: number,
+    name: string,
+    description: string,
+    experience: number,
+    icon: string,
 }

@@ -17,7 +17,7 @@ const ProjectPage = () => {
       <h1 className='header-1'>Project</h1>
       {projects.map(project => (
         <div key={project.id}>
-          <p style={{margin: "15px 0px 5px 0px", color: "blue", fontSize: "20px"}}>{project.title}</p>
+          <p className='sub-header-1'>{project.title}</p>
           <p>{project.description}</p>
           <ul className='list-group list-group-horizontal position-relative overflow-auto'>
             {project.examples.map(e => (
@@ -27,7 +27,7 @@ const ProjectPage = () => {
                   <CardBody>
                     <CardImg variant="top" src={e.image} />
                     <CardTitle>{e.text}</CardTitle>
-                    <CardText style={{textAlign: "justify"}}>{project.description}</CardText>
+                    <CardText style={{textAlign: "justify"}}>{e.description}</CardText>
                   </CardBody>
                   </Link>
                 </Card>

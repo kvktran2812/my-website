@@ -1,6 +1,10 @@
 import React from 'react'
-import { skills } from '@/lib/data'
+import { skills, skillsets } from '@/lib/data'
 import { motion } from "framer-motion";
+import Image from 'next/image';
+
+const icon_height = 60
+const icon_width = 60
 
 const SkillPage = () => {
   return (
@@ -9,18 +13,24 @@ const SkillPage = () => {
       className="scroll-mt-28 text-left sm:mb-40 pt-20"
     >
       <h1 className='header-1'>Skills</h1>
-      <p>Top Skills: Python, JavaScript, C++, NumPy, Tensorflow, React, FastAPI</p>
-      {/* <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
-        {skills.map((skill, index) => (
-          <li
-            className="bg-white borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80"
-            key={index}
-            // variants={fadeInAnimationVariants}
-          >
-            {skill}
-          </li>
-        ))}
-      </ul> */}
+      <p>Top Skills: Python, JavaScript, C++, NumPy, Tensorflow, React, FastAPI, MySQL, PostgreSQL</p>
+      <ul>
+        {
+          skillsets.map(obj => (
+            <li key={obj.id} className='sub-header-1'>
+              {obj.title}
+              <ul>
+              {obj.skills.map(skill => (
+                <li key={skill.id} className='skill-style-0'>
+                  <Image height={icon_height} width={icon_width} src={skill.icon} alt=''/>
+                  <p>{skill.name}</p>
+                </li>
+              ))}
+              </ul>
+            </li>
+          ))
+        }
+      </ul>
     </section>
   )
 }
