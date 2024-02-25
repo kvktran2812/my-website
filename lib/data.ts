@@ -231,5 +231,53 @@ export const skillsets: Array<SkillSet> = [
                 icon: "/img/skills/mongodb.png",
             }
         ]
-    }
+    },
+    {
+        id: 0,
+        title: "Scientific Technologies",
+        skills: [
+            {
+                id: 0,
+                name: "NumPy",
+                description: "",
+                experience: 4,
+                icon: "/img/skills/numpy.svg",
+            },
+            {
+                id: 1,
+                name: "Pandas",
+                description: "",
+                experience: 4,
+                icon: "/img/skills/pandas.png",
+            },
+            {
+                id: 2,
+                name: "SciPy",
+                description: "",
+                experience: 5,
+                icon: "/img/skills/scipy.svg",
+            },
+            {
+                id: 3,
+                name: "Tensorflow",
+                description: "",
+                experience: 5,
+                icon: "/img/skills/tensorflow.png",
+            },
+            {
+                id: 3,
+                name: "PyTorch",
+                description: "",
+                experience: 5,
+                icon: "/img/skills/pytorch.png",
+            },
+            {
+                id: 4,
+                name: "Matplotlib",
+                description: "",
+                experience: 5,
+                icon: "/img/skills/matplotlib.png",
+            }
+        ]
+    },
 ]
