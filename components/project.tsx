@@ -14,7 +14,7 @@ const ProjectPage = () => {
 
   return (
     <div id="projects" className='pt-20'>
-      <h1 className='header-1'>Project</h1>
+      <h1 className='header-1'>Projects</h1>
       {projects.map(project => (
         <div key={project.id}>
           <p className='sub-header-1'>{project.title}</p>

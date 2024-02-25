@@ -5,7 +5,7 @@ import {Accordion, AccordionHeader, AccordionBody, AccordionItem} from 'react-bo
 const ExperiencePage = () => {
   return (
     <div id="experience" className='pt-10'>
-      <h1 className='header-1'>Experience</h1>
+      <h1 className='header-1'>Experience & Activities</h1>
       <Accordion defaultActiveKey="0">
         {experience.map(exp => (
           <AccordionItem key={exp.id} eventKey={exp.id.toString()}>
