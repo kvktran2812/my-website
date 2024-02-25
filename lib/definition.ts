@@ -22,19 +22,17 @@ export type Experience = {
 
 export type Project = {
     id: number,
-    status: string,
     title: string,
     description: string,
-    href: string,
     examples: Array<ProjectLink>,
     github: string,
-    image: string,
 }
 
 export type ProjectLink = {
     id: number,
     text: string,
     href: string,
+    image: string,
 }
 
 export type OpenSource = {

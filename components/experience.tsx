@@ -11,7 +11,7 @@ const ExperiencePage = () => {
           <AccordionItem key={exp.id} eventKey={exp.id.toString()}>
             <AccordionHeader>{exp.title}</AccordionHeader>
             <AccordionBody>
-              <h1 className='mb-2'>{exp.company} - Time: {exp.time}</h1>
+              <h1 className='mb-2'>{exp.company} - {exp.time}</h1>
               {
                 <ul>
                 {exp.details.map(detail => (

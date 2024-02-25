@@ -70,27 +70,45 @@ export const experience: Array<Experience> = [
 export const projects: Array<Project> = [
     {
         id: 0,
-        status: "ongoing",
         title: "Deep Learning",
         description: "A series of simple tutorials and practices using multiple deep learning technologies. \
         In this series, I implemented different models like simple neural network, convolutional network, autoencoder, etc. \
         These models represent best practices that can apply to solve practical problems",
-        href: "Some link here",
         github: "A github link here",
         examples: [
             {
                 id: 0,
                 text: "0. Simple Neural Network",
                 href: "/html/0_simple_neural_network.html",
+                image: "/img/deeplearn.png"
             },
             {
                 id: 1,
                 text: "1. Convolutional Network",
                 href: "/html/1_conv_nn.html",
+                image: "/img/conv.png"
+            },
+            {
+                id: 2,
+                text: "2. LSTM",
+                href: "/html/1_conv_nn.html",
+                image: "/img/lstm.png"
+            },
+            {
+                id: 3,
+                text: "3. Autoencoder",
+                href: "/html/1_conv_nn.html",
+                image: "/img/autoencoder.png"
             },
         ],
-        image: "/img/deeplearn.png",
     },
+    {
+        id: 1,
+        title: "OpenGL",
+        description: "Projects that use OpenGL to render graphics. To be updated soon",
+        github: "github",
+        examples: [],
+    }
 ]
 
 export const skills: Array<string> = [
