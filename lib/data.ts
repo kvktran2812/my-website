@@ -97,9 +97,10 @@ export const projects: Array<Project> = [
             {
                 id: 2,
                 text: "2. LSTM",
-                href: "",
+                href: "/html/2_lstm.html",
                 image: "/img/lstm.png",
-                description: "Will be updated soon",
+                description: "In this experiment, I used LSTM to predict return of interest of a stock price, then from there reverse calculation to predict stock price. \
+                This model manage to capture the trend and movement of stock price with very low error rate.",
             },
             {
                 id: 3,
