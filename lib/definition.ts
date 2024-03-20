@@ -32,7 +32,7 @@ export type ProjectLink = {
     id: number,
     text: string,
     href: string,
-    image: string,
+    source: string,
     description: string,
 }
 

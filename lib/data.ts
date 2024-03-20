@@ -74,13 +74,13 @@ export const projects: Array<Project> = [
         description: "A series of simple tutorials and practices using multiple deep learning technologies. \
         In this series, I implemented different models like simple neural network, convolutional network, autoencoder, etc. \
         These models represent best practices that can apply to solve practical problems",
-        github: "A github link here",
+        github: "https://github.com/kvktran2812/machine-learning",
         examples: [
             {
                 id: 0,
                 text: "0. Simple Neural Network",
                 href: "/html/0_simple_neural_network.html",
-                image: "/img/deeplearn.png",
+                source: "/img/deeplearn.png",
                 description: "Using simple neural network to study and predict the famous MNIST dataset. \
                 The dataset is a collection of images of handwritten numbers from 0 to 9\
                 The result is a model that can achieve accuracy rate of 97%",
@@ -89,7 +89,7 @@ export const projects: Array<Project> = [
                 id: 1,
                 text: "1. Convolutional Network",
                 href: "/html/1_conv_nn.html",
-                image: "/img/conv.png",
+                source: "/img/conv.png",
                 description: "In this demonstration, I used convolutional network to study the CIFAR10 dataset. \
                 Using convolutional layer to first filter and extract important information from the image, and then feed those features to a densely connected layer.\
                 The dataset is a collection of images of 10 different classes of object. The result is a model that can achieve accuracy rate of 75%",
@@ -98,25 +98,33 @@ export const projects: Array<Project> = [
                 id: 2,
                 text: "2. LSTM",
                 href: "/html/4_lstm.html",
-                image: "/img/lstm.png",
+                source: "/img/lstm.png",
                 description: "In this experiment, I used LSTM to predict return of interest of a stock price, then from there reverse calculation to predict stock price. \
                 This model manage to capture the trend and movement of stock price with very low error rate.",
             },
             {
                 id: 3,
                 text: "3. Autoencoder",
-                href: "",
-                image: "/img/autoencoder.png",
-                description: "Will be updated soon",
+                href: "/html/2_autoencoder.html",
+                source: "/img/autoencoder.png",
+                description: "In this experiment, I will implement the famous autoencoder model that will learn the best fit function to compress image data from the Fashion MINST dataset. The model also has a decoder that can reconstruct to the original image. Although the reconstrcuted images are not identical, the error rate is acceptable and the important features are transfer completely.",
             },
         ],
     },
     {
         id: 1,
         title: "OpenGL",
-        description: "Projects that use OpenGL to render graphics. To be updated soon",
+        description: "Projects that use OpenGL to render graphics.",
         github: "github",
-        examples: [],
+        examples: [
+            {
+                id: 0,
+                text: "0. Simple Virtual Environment",
+                href: "/video/0_computer_graphic.mp4",
+                source: "/img/0_graphic.png",
+                description: "Using OpenGL to load Mesh object files and render it in a window. User can navigate around with left, right, forward, backward, turn left, turn right",
+            },
+        ],
     }
 ]
 

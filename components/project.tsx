@@ -25,7 +25,7 @@ const ProjectPage = () => {
                 <Card style={{ width: '20rem' }}>
                   <Link href={e.href}>
                   <CardBody>
-                    <CardImg variant="top" src={e.image} />
+                    <CardImg variant="top" src={e.source} />
                     <CardTitle>{e.text}</CardTitle>
                     <CardText style={{textAlign: "justify"}}>{e.description}</CardText>
                   </CardBody>
