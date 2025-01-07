@@ -6,17 +6,19 @@ import ProjectPage from "@/components/project";
 import SkillPage from "@/components/skill";
 import EducationPage from "@/components/education";
 import OpenSource from "@/components/open_source";
+import Timeline from "@/components/timeline";
 
 
 export default function Home() {
   return (
     <main className="w-[70%] pb-24 m-auto">
       <Profile />
-      <EducationPage  />
+      <Timeline />
+      {/* <EducationPage  />
       <ExperiencePage />
       <OpenSource />
       <ProjectPage />
-      <SkillPage />
+      <SkillPage /> */}
     </main>
   );
 }

@@ -9,16 +9,12 @@ const Profile = () => {
         <div className="flex items-center justify-center m-5">
             <img src="/img/Digital_photo.jpg" alt="Avatar" className="w-[250px] h-[250px] rounded-full object-cover"></img>
         </div>
-        <h1 style={{fontSize: "30px", color: "blue"}}>Hi, I&apos;m Khuong Tran</h1>
+        <h1 style={{fontSize: "30px", color: "blue"}}>Hi, I&apos;m Khuong Tran or Donald Tran</h1>
         <p className='mt-2'>
-            I&apos;m a software engineer, who can work with multiple technologies to implement high quality products. 
-            I&apos;m most comfortable working with Python, C++, and JavaScript project, however, I&apos;m also flexible to work with other programming language as well. 
-            I often practice with data science technologies like NumPy, Pandas, SciPy, Matplotlib, and especially machine learning tools like Scikit-learn, Tensorflow, and Pytorch.
+            My major is Computer Science with focus in Machine Learning. I just love to build deep learning models that can 
+            help solve business problem and improve society in general. 
         </p>
-        <p className='mt-4'>
-          I&apos;m comfortable to work with any type of projects including but not limited to frontend, backend, data science, data engineering. 
-          During my school years, I gained some experience with system programming with multi-threading and scheduling processes and practiced programming to GPU with technologies like OpenGL and GLSL.
-        </p>
+
     </div>
   )
 }
