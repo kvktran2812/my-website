@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 const Profile = () => {
   return (
-    <div className="pt-12">
+    <div>
         <div className="flex items-center justify-center m-5">
             <img src="/img/Digital_photo.jpg" alt="Avatar" className="w-[250px] h-[250px] rounded-full object-cover"></img>
         </div>
