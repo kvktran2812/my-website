@@ -2,7 +2,6 @@ import React, { ReactComponentElement } from 'react'
 import 'react-vertical-timeline-component/style.min.css';
 import styles from "./css/Project.module.css";
 import Image from 'next/image';
-import { title } from 'process';
 
 
 const ProjectPage = () => {

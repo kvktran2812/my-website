@@ -2,6 +2,7 @@ import Image from "next/image";
 import Profile from "@/components/profile";
 import Timeline from "@/components/timeline";
 import Project from "@/components/project";
+import DeepLearning from "@/components/deepLearningConcepts";
 
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
       <Profile />
       <Timeline />
       <Project />
+      <DeepLearning />
       {/* <Kaggle /> */}
     </main>
   );

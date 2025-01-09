@@ -1,0 +1,35 @@
+.deepLearning {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.deepLearning h1 {
+    font-size: 36px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.deepLearning p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.icon {
+    float: left;
+    margin-right: 10px;
+}
+
+.icon img {
+    height: 80px;
+    border-radius: 5px;
+    border: 1px solid #999;
+}
+
+.desc {
+    height: 100px;
+}
+
+.projectItem {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #dadada;
+}
