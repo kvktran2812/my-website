@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./css/Timeline.module.css";
+import Image from "next/image";
 
 const Timeline = () => {
   const events = [
@@ -10,7 +11,7 @@ const Timeline = () => {
       description:
         <div>
             <p>
-                I got another internship after I graduate. This time it's a role related to machine learning, tasks that I always dream to do.
+                I got another internship after I graduate. This time it&apos;s a role related to machine learning, tasks that I always dream to do.
             </p>
             <p>Here are some of my tasks:</p>
                 <li>Researched and developed latest deep learning models for NLP and computer vision tasks</li>
@@ -75,7 +76,7 @@ const Timeline = () => {
                 <div className={styles.timespan}>{event.date}</div>
                 <div className={styles.icon}>
                     <div className={styles.dot}></div>
-                    <img src={event.image}/>
+                    <Image src={event.image} alt={event.title} width={75} height={75}/>
                 </div>
                 <div className={styles.desc}>
                     <h1><b>{event.title}</b></h1>
