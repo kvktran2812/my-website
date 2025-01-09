@@ -1,7 +1,5 @@
 import React from "react";
 import styles from "./css/Kaggle.module.css";
-import Image from "next/image";
-import Card from 'react-bootstrap/Card';
 
 
 export default function Kaggle() {
