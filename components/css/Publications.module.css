@@ -1,0 +1,37 @@
+.publication {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.publication h1 {
+    font-size: 36px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.publication p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.publicationItem {
+    font-size: 14px;
+    border-left: 4px solid #aaa;
+    padding: 2px 0px 2px 10px;
+    margin-bottom: 10px;
+}
+.pubTitle {
+    display: inline;
+    color: blue;
+}
+
+.pubDate {
+    display: inline;
+    color: #090;
+    margin-left: 10px;
+}
+
+.pubAuthor {
+    display: block;
+    color: #900;
+}
