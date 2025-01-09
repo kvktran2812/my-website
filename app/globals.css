@@ -74,3 +74,8 @@ body {
   margin: auto;
   max-height: 60px;
 }
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}

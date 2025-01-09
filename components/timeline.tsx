@@ -72,7 +72,7 @@ const Timeline = () => {
   return (
     <div id="history" className={styles.container}>
         {events.map((event, index) => (
-            <div key={index} className={styles.entryRow}>
+            <div key={index} className="row">
                 <div className={styles.timespan}>{event.date}</div>
                 <div className={styles.icon}>
                     <div className={styles.dot}></div>
