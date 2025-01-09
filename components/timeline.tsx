@@ -5,38 +5,35 @@ const Timeline = () => {
   const events = [
     {
       date: "June - Nov 2024",
-      image: "/eureka-logo.png",
+      image: "/img/ahamove.png",
       title: "Machine Learning Engineer at AhaMove",
       description:
         <div>
-            <p style={{marginBottom: "10px"}}>
-                I got another internship after I graduate. This time it's a role related to machine learning, tasks that I always dreamed to do.
-                Here are some of my tasks:
+            <p>
+                I got another internship after I graduate. This time it's a role related to machine learning, tasks that I always dream to do.
             </p>
-            
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            
+            <p>Here are some of my tasks:</p>
+                <li>Researched and developed latest deep learning models for NLP and computer vision tasks</li>
+                <li>Deployed models on AWS platforms, maintained and monitored models availability and reliability</li>
+                <li>Fine-tuned pre-trained model from Hugging Face, improved performance by 20%</li>
+                <li>Performed large scale data analysis and visualization</li>
         </div>
     },
     {
       date: "April 2023 - June 2024",
-      image: "/openai-logo.png",
+      image: "/img/uoit.png",
       title: "Back to university and graduate from Bsc in Computer Science at UOIT",
       description: "Enhanced my knowledge in math, statistic, and machine learning",
     },
     {
       date: "September 2022 - April 2023",
-      image: "/ki3-logo.png",
+      image: "/img/ki3.jpg",
       title: "Software Developer Intern at Ki3 Photonics Inc",
       description:
         <div>
-            <p style={{marginBottom: "10px"}}>
+            <p>
                 This is my first internship. I worked under supervision of <a href="https://www.linkedin.com/in/piotr-roztocki/"><u>Dr Piotr Roztocki</u></a>, 
-                we collaborated with Quantum Bridge to develop an open-source Python library called GraphiQ for quantum computing and a research paper. 
+                we collaborated with <a href="https://qubridge.io/"><u>Quantum Bridge</u></a> to develop an open-source Python library called <a href="https://github.com/graphiq-dev/graphiq"><u>GraphiQ</u></a> for quantum computing and a <a href="https://arxiv.org/abs/2402.09285"><u>research paper</u></a>. 
             </p>
             <p>Here are some of my tasks:</p>
                 <li>Architected a pipeline for large-scale data processing and analysis using Python</li>
@@ -49,7 +46,7 @@ const Timeline = () => {
     },
     {
       date: "September 2021 - April 2022",
-      image: "/uoit.png",
+      image: "/img/uoit.png",
       title: "University of Ontario Institute of Technology",
       description:
         <div>
@@ -59,7 +56,7 @@ const Timeline = () => {
     },
     {
         date: "September 2018 - April 2021",
-        image: "/seneca.png",
+        image: "/img/seneca.png",
         title: "Seneca College",
         description:
             <div>
