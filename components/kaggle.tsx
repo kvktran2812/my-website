@@ -43,7 +43,7 @@ export default function Kaggle() {
             <p>
                 Here are some of my Kaggle competitions. So far I haven&apos;t achieve any medals or top of the leaderboard. 
                 However, from Kaggle competition, I think I learn a lot from other contestants around the world.
-                It also gave me many ideas to other projects that I'm working on.
+                It also gave me many ideas to other projects that I am working on.
             </p>
             <div className="row">
                 {cards.map((card, index) => (
