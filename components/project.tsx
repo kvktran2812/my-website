@@ -35,12 +35,11 @@ const ProjectPage = () => {
       {projects.map((project, index) => (
           <div key={index} className={styles.projectItem}>
             <div className={styles.icon}>
-              <a href="https://github.com/kvktran2812/scratch-torch-gpt">
-              <Image src={project.img} alt={project.title} width={100} height={100} />
+              <a href={project.link}>
+                <Image src={project.img} alt={project.title} width={200} height={200}/>
               </a>
             </div>
             <div className={styles.desc}>
-              <p><b>{project.title}</b></p>
               {project.desc}
             </div>
           </div>

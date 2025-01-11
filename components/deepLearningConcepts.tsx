@@ -43,7 +43,9 @@ const DeepLearningPage = () => {
             <div className={styles.icon}>
               <Image src={concept.img} alt={concept.title} width={100} height={100} />
             </div>
-            <div className={styles.desc}>{concept.desc}</div>
+            <div className={styles.desc}>
+              {concept.desc}
+            </div>
           </div>
       ))}
     </div>

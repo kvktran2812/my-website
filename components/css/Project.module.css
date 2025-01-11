@@ -10,21 +10,25 @@
 }
 
 .icon {
-    float: left;
+    display: inline-block;
     margin-right: 10px;
 }
 
 .icon img {
     height: 80px;
+    width: 80px;
     border-radius: 5px;
     border: 1px solid #999;
 }
 
 .desc {
-    height: 100px;
+    width: 90%;
+    vertical-align: top;
+    display: inline-block;
 }
 
 .projectItem {
     margin-bottom: 10px;
     border-bottom: 1px solid #dadada;
+    padding-bottom: 10px;
 }
