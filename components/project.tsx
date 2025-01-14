@@ -13,7 +13,7 @@ const ProjectPage = () => {
       img: "/img/project1.png",
       desc: 
       <div>
-        In this project I built a GPT model from scratch using Pytorch to generate six-eight style poem (a type of poetry in Vietnam). 
+        In this project, I built a GPT model from scratch using Pytorch to generate six-eight style poem (a type of poetry in Vietnam). 
         All components like single-head attention, multi-head attention, and feed forward are implemented from scratch.
       </div>,
     },

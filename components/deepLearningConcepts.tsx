@@ -38,7 +38,8 @@ const DeepLearningPage = () => {
       <p>These are some of the deep learning famous models, architectures, and algorithms that I re-implemented from scratch from multiple research papers.
         Often when I learn new deep learning knowledge, I try to replicate it to understand how it works from the smallest detail.
       </p>
-      {concepts.map((concept, index) => (
+      <p>Not implemented yet</p>
+      {/* {concepts.map((concept, index) => (
           <div key={index} className={styles.projectItem}>
             <div className={styles.icon}>
               <Image src={concept.img} alt={concept.title} width={100} height={100} />
@@ -47,7 +48,7 @@ const DeepLearningPage = () => {
               {concept.desc}
             </div>
           </div>
-      ))}
+      ))} */}
     </div>
   )
 }
