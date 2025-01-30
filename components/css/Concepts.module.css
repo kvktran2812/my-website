@@ -32,6 +32,14 @@
     display: inline-block;
 }
 
+.desc p {
+    margin-bottom: 0px;
+}
+
+.desc a {
+    color: blue;
+}
+
 .projectItem {
     margin-bottom: 10px;
     border-bottom: 1px solid #dadada;
